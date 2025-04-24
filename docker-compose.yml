@@ -4,6 +4,6 @@ services:
   fitness-club:
     build: .
     ports:
-      - "8080:80"
+      - "8082:80"
     volumes:
       - .:/usr/share/nginx/html:ro
